@@ -16,6 +16,8 @@
 
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
+@synthesize ItemName = _ItemName;
+@synthesize ItemPrice = _ItemPrice;
 
 - (id)initWithCoder:(NSCoder *)coder
 {
@@ -63,6 +65,8 @@
 
 - (void)viewDidUnload
 {
+    [self setItemName:nil];
+    [self setItemPrice:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

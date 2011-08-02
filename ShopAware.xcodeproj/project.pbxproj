@@ -26,17 +26,17 @@
 		5F96CB4A13E6236200B3C6B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5F96CB4C13E6236200B3C6B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5F96CB4E13E6236200B3C6B6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5F96CB5213E6236200B3C6B6 /* ShopAware-Info.plist */ = {isa = PBXFileReference; path = "ShopAware-Info.plist"; sourceTree = "<group>"; };
+		5F96CB5213E6236200B3C6B6 /* ShopAware-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShopAware-Info.plist"; sourceTree = "<group>"; };
 		5F96CB5413E6236200B3C6B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5F96CB5613E6236200B3C6B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F96CB5813E6236300B3C6B6 /* ShopAware-Prefix.pch */ = {isa = PBXFileReference; path = "ShopAware-Prefix.pch"; sourceTree = "<group>"; };
-		5F96CB5913E6236300B3C6B6 /* ShopAwareAppDelegate.h */ = {isa = PBXFileReference; path = ShopAwareAppDelegate.h; sourceTree = "<group>"; };
+		5F96CB5813E6236300B3C6B6 /* ShopAware-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShopAware-Prefix.pch"; sourceTree = "<group>"; };
+		5F96CB5913E6236300B3C6B6 /* ShopAwareAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopAwareAppDelegate.h; sourceTree = "<group>"; };
 		5F96CB5A13E6236300B3C6B6 /* ShopAwareAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopAwareAppDelegate.m; sourceTree = "<group>"; };
 		5F96CB5D13E6236300B3C6B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5F96CB6013E6236300B3C6B6 /* ShopAware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShopAware.xcdatamodel; sourceTree = "<group>"; };
-		5F96CB6213E6236300B3C6B6 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		5F96CB6213E6236300B3C6B6 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		5F96CB6313E6236300B3C6B6 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		5F96CB6513E6236300B3C6B6 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		5F96CB6513E6236300B3C6B6 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		5F96CB6613E6236300B3C6B6 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,6 +135,9 @@
 /* Begin PBXProject section */
 		5F96CB3B13E6236200B3C6B6 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 5F96CB3E13E6236200B3C6B6 /* Build configuration list for PBXProject "ShopAware" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -285,6 +288,7 @@
 				5F96CB6C13E6236300B3C6B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

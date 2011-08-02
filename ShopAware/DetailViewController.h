@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DetailViewController : UIViewController
+@interface DetailViewController : UIViewController {
+    UILabel *_ItemName;
+    UILabel *_ItemPrice;
+}
+
 
 @property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+@property (strong, nonatomic) IBOutlet UILabel *ItemName;
+
+@property (strong, nonatomic) IBOutlet UILabel *ItemPrice;
 
 @end
